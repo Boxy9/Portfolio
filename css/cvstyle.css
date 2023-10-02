@@ -1,0 +1,197 @@
+  @font-face {
+      font-family: 'Dancing Script';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+      font-family: 'Dancing Script';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+      font-family: 'Dancing Script';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+      font-family: 'Tapestry';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/tapestry/v2/SlGTmQecrosEYXhaGCIjoHE.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body {
+      font-family: Tapestry, Helvetica, sans-serif;
+      color: rgb(82, 82, 2);
+      font-weight: 400;
+  }
+
+  header {
+      background-image: linear-gradient(to left, yellow, yellow, yellow, yellow, lightgreen);
+      border-top: 0.2em solid black;
+      border-bottom: 0.2em solid black;
+      border-radius: 1.0em;
+      box-shadow: 0.5em 0.5em 0.5em black;
+      min-block-size: 3em;
+  }
+
+  header img {
+      max-width: 10%;
+      max-height: 10%;
+      display: block;
+      border-radius: 50%;
+  }
+
+  #headerText {
+      display: block;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      min-width: 100%;
+      font-size: 2em;
+      float: right;
+      font-family: "Dancing Script", Helvetica, sans-serif;
+  }
+
+  #headerText h1,
+  #headerText h3 {
+      margin: 0;
+  }
+
+  #headerText h3 a {
+      text-decoration: none;
+  }
+
+  section {
+      background-image: linear-gradient(to left, yellow, yellow, yellow, yellow, lightgreen);
+      border-top: 0.2em solid black;
+      border-bottom: 0.2em solid black;
+      border-radius: 1.0em;
+      box-shadow: 0.5em 0.5em 0.5em black;
+  }
+
+  section h3 {
+      font-style: italic;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-left: 0.5em;
+  }
+
+  section ul {
+      list-style-type: circle;
+  }
+
+  table {
+      max-width: 100%;
+  }
+
+  section table tr th {
+      text-align: left;
+      padding-left: 1em;
+      width: auto;
+  }
+
+  section table tr th h4 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .fitTxt {
+      min-width: 20%;
+  }
+
+  .rightJ {
+      text-align: right;
+      min-width: 30%;
+      padding-right: 0.5em;
+  }
+
+  #earlyCareer {
+      min-width: 75%;
+      margin-left: 12%;
+  }
+
+  .underline {
+      text-decoration: underline;
+      text-align: center;
+  }
+
+  #withframe {
+      width: 80%;
+      table-layout: fixed;
+      column-width: 50%;
+      margin-bottom: 1em;
+      margin-left: 9.5%;
+  }
+
+  #withframe td {
+      padding-left: 1em;
+  }
+
+  #withframe,
+  #withframe th,
+  #withframe td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+
+  .boldit {
+      font-weight: bold;
+  }
+
+  #education {
+      padding-left: 1em;
+      padding-right: 1em;
+  }
+
+  footer {
+      text-align: center;
+      line-height: 0.1em;
+      margin-top: 7px;
+      font-family: "Dancing Script", Helvetica, sans-serif;
+      background-color: aqua;
+      border: 3px solid black;
+      border-radius: 1em;
+  }
+
+  /* mobile */
+  @media screen and (max-width: 640px) {
+      #headerText {
+          font-size: x-small;
+          margin-top: -3.8em;
+          font-family: "Dancing Script", Helvetica, sans-serif;
+      }
+  }
+
+  /* tablet */
+  @media screen and (min-width: 641px) and (max-width:960px) {
+
+  #headerText {
+      font-size: smaller;
+      margin-top: -4.8em;
+      font-family: "Dancing Script", Helvetica, sans-serif;
+  }
+}
+
+  /* desktop */
+  @media screen and (min-width: 961px) {
+    #headerText {
+        font-size: larger;
+        margin-top: -5.3em;
+        font-family: "Dancing Script", Helvetica, sans-serif;
+    }
+  }
