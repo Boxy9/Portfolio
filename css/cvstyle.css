@@ -120,7 +120,7 @@
       padding-right: 0.5em;
   }
 
-  #earlyCareer {
+  #earlyCareer table {
       min-width: 75%;
       margin-left: 12%;
   }
@@ -153,9 +153,12 @@
       font-weight: bold;
   }
 
-  #education {
-      padding-left: 1em;
-      padding-right: 1em;
+  #education table {
+      width: 90%;
+  }
+
+  #education table td {
+      padding-left: 2.5em;
   }
 
   footer {
@@ -180,18 +183,18 @@
   /* tablet */
   @media screen and (min-width: 641px) and (max-width:960px) {
 
-  #headerText {
-      font-size: smaller;
-      margin-top: -4.8em;
-      font-family: "Dancing Script", Helvetica, sans-serif;
+      #headerText {
+          font-size: smaller;
+          margin-top: -4.8em;
+          font-family: "Dancing Script", Helvetica, sans-serif;
+      }
   }
-}
 
   /* desktop */
   @media screen and (min-width: 961px) {
-    #headerText {
-        font-size: larger;
-        margin-top: -5.3em;
-        font-family: "Dancing Script", Helvetica, sans-serif;
-    }
+      #headerText {
+          font-size: larger;
+          margin-top: -5.3em;
+          font-family: "Dancing Script", Helvetica, sans-serif;
+      }
   }
