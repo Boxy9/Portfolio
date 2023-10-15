@@ -1,0 +1,85 @@
+header {
+    background-image: linear-gradient(to right, white, grey);
+    border-radius: 1.0em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    text-align: center;
+    color: blue;
+}
+
+header img {
+    width: 15%;
+    vertical-align: middle;
+
+    border-radius: 50%;
+
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    min-width: 12%;
+    margin: 0.25em;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+    background-image: linear-gradient(white, white, grey);
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    text-align: center;
+}
+
+table {
+    padding: 1em 0 1em 0;
+    margin: 0 20% 0 20%;
+}
+
+label,
+form,
+#submit {
+    border-radius: 1em;
+    font-size: 1.25em;
+    background: linear-gradient(45deg, yellow 0%, blue 100%);
+    box-shadow: inset 0 0 35px 0px rgba(0, 0, 0, 0.25),
+        inset 0 2px 1px 1px rgb(70, 65, 65),
+        1px 1px 15px 2px rgba(154, 137, 164, 0.5);
+    text-shadow: 2px -2px 4px rgb(47, 65, 102),
+        -2px 2px 5px rgb(226, 46, 166);
+    outline: none;
+    color: rgb(86, 231, 142);
+}
+
+label,
+input {
+    padding: 0 0.5em 0 0.5em;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#textarea,
+input {
+    opacity: 50%;
+}
+
+footer {
+    background-image: linear-gradient(to right, white, grey);
+    border-radius: 1.0em;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer p {
+    margin: 0;
+}

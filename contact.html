@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="./scripts/contact.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a> </li>
+            <!-- <li> <a href="contact.html">Contact</a> </li> -->
+            <li> <a href="CV.html">CV</a> </li>
+            <li> <a href="calculator.html">Calculator</a> </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="media/images/Me.jpg" alt="David Boxall" />
+        <h1>Contact me !</h1>
+    </header>
+    <main>
+        <form role="form" name="contactMe">
+            <table>
+                <tr>
+                    <th scope="row"><label for="firstName">First Name</label></th>
+                    <td><input type="text" id="firstName" name="firstName" required></td>
+                </tr>
+                <tr>
+                    <th scope="row"><label for="lastName">Last Name</label></th>
+                    <td><input type="text" id="lastName" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <th scope="row"><label for="email">Response Email</label></th>
+                    <td><input type="email" id="email" name="email" autocomplete="off"></td>
+                </tr>
+            </table>
+            <label for="textarea">Comments about my work please....</label><br>
+            <textarea id="textarea" name="textarea" rows="10" cols="50" placeholder="Comments please..."
+                required></textarea><br><br>
+
+            <input type="submit" id="submit" value="Submit" onclick="submit_comment()"><br><br>
+        </form>
+    </main>
+    <Footer>
+        <p>&copy; David Boxall 2023</p>
+        <p>Phone number: <a href="tel:07918686554">07918686554</a></p>
+        <p>Email: <a href="mailto:davidboxall01@gmail.com">davidboxall01@gmail.com</a></p>
+    </Footer>
+</body>
+
+</html>
