@@ -81,7 +81,8 @@ footer p {
 @media screen and (max-width: 640px) {
 
     table {
-        margin: 0 15% 0 15%;
+        width: 70%;
+        margin-left: 15%;
     }
 
 
@@ -90,13 +91,15 @@ footer p {
 /* tablet */
 @media screen and (min-width: 641px) and (max-width:960px) {
     table {
-        margin: 0 25% 0 25%;
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
 /* desktop */
 @media screen and (min-width: 961px) {
     table {
-        margin: 0 35% 0 35%;
+        width: 30%;
+        margin-left: 35%;
     }
 }
