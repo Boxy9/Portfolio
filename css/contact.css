@@ -53,16 +53,20 @@ form,
     color: rgb(86, 231, 142);
 }
 
-label,
+table label, table input,
 #submit {
     padding: 0 0.5em 0 0.5em;
 }
-table input {
-    width: 100%;
+table tr th {
+    text-align: right;
 }
+table tr td {
+    text-align: left;
+}
+
 #textarea input {
-    width: 100%;
     opacity: 50%;
+    max-width: 95%;
 }
 
 footer {
@@ -83,23 +87,34 @@ footer p {
     table {
         width: 70%;
         margin-left: 15%;
+        font-size: x-small;
     }
-
+    #textlabel, #textarea, #submit {
+        font-size: x-small;
+    }
 
 }
 
 /* tablet */
 @media screen and (min-width: 641px) and (max-width:960px) {
     table {
-        width: 50%;
+        width: 55%;
         margin-left: 25%;
+        font-size: smaller;
+    }
+    #textlabel, #textarea, #submit {
+        font-size: smaller;
     }
 }
 
 /* desktop */
 @media screen and (min-width: 961px) {
     table {
-        width: 30%;
+        width: 40%;
         margin-left: 35%;
+        font-size: larger;
+    }
+    #textlabel, #textarea, #submit {
+        font-size: larger;
     }
 }
