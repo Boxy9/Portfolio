@@ -53,13 +53,16 @@ form,
     color: rgb(86, 231, 142);
 }
 
-table label, table input,
+table label,
+table input,
 #submit {
     padding: 0 0.5em 0 0.5em;
 }
+
 table tr th {
     text-align: right;
 }
+
 table tr td {
     text-align: left;
 }
@@ -82,39 +85,69 @@ footer p {
 }
 
 /* mobile */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 280px) {
 
-    table {
-        width: 70%;
-        margin-left: 15%;
+    table,
+    input {
+        table-layout: auto;
+        width: 90%;
         font-size: x-small;
     }
-    #textlabel, #textarea, #submit {
+
+    #textlabel,
+    #textarea,
+    #submit {
         font-size: x-small;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 640px) {
+
+    table,
+    input {
+        table-layout: auto;
+        width: 90%;
+        font-size: small;
+    }
+
+    #textlabel,
+    #textarea,
+    #submit {
+        font-size: small;
     }
 
 }
 
 /* tablet */
 @media screen and (min-width: 641px) and (max-width:960px) {
-    table {
-        width: 55%;
-        margin-left: 25%;
-        font-size: smaller;
+
+    table,
+    input {
+        table-layout: auto;
+        width: 90%;
+        font-size: small;
     }
-    #textlabel, #textarea, #submit {
-        font-size: smaller;
+
+    #textlabel,
+    #textarea,
+    #submit {
+        font-size: small;
     }
+
 }
+
 
 /* desktop */
 @media screen and (min-width: 961px) {
     table {
-        width: 40%;
-        margin-left: 35%;
+        table-layout: auto;
+        width: 100%;
         font-size: larger;
     }
-    #textlabel, #textarea, #submit {
+
+    #textlabel,
+    #textarea,
+    #submit {
         font-size: larger;
     }
 }
