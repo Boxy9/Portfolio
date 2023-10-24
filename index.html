@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>My home page</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="./scripts/script.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
@@ -37,13 +38,22 @@
                 <h2>Enjoy!</h2>
                 <p>The website is up and running. It took a lot of time to complete.</p>
                 <p>This page uses "HTML Grid's" within "Grid's"</p>
-                <p>This <a href="https://boxy9.github.io/FlexBox-Company-Site/index.html">link</a> takes you to a Company site that uses "HTML Flex".</p>
+                <p>This <a href="https://boxy9.github.io/FlexBox-Company-Site/index.html">link</a> takes you to a
+                    Company site that uses "HTML Flex".</p>
+
+                <div id="txtMsg">
+                    <h3>Try the two below buttons several times !</h3>
+                    <h4>NB The "Try Me !" button is base on a
+                        children's book that my daughters had when they were young...</h4>
+                    <p><button id="wouldYouLike" type="button" onclick="wouldYouLike()">Try Me !</button><button
+                            id="badPun" type="button" onclick="badPun()">Pun ?</button></p>
+                </div>
             </article>
-            <article>
+            <article id="WIP">
                 <h2>Work in progress!</h2>
                 <p>All good websites are WIPs!</p>
             </article>
-            
+
         </div>
         <div class="mainRight">
             <p>This will disapear when the page is shrunk to mobile size !</p>

@@ -30,7 +30,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+nav ul li, button {
     min-width: 11%;
     margin-right: 1em;
     list-style-type: none;
@@ -51,7 +51,16 @@ nav ul li a {
     text-decoration: none;
     color: grey;
 }
-
+#txtMsg {
+    background-color: antiquewhite;
+    border: 2px dotted black;
+    text-align: center;
+}
+#txtMsg button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
 main {
     grid-area: main;
     display: grid;
@@ -110,7 +119,7 @@ footer {
         min-width: 80%;
     }
 
-    nav ul li {
+    nav ul li, button {
         border-radius: 1em;
         margin: 0 0 0.5em 0;
         background: linear-gradient(45deg, yellow 0%, blue 100%);
@@ -127,6 +136,12 @@ footer {
         margin: 0;
         max-width: 100%;
         ;
+    }
+    button {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1em;
+        margin-right: 1em;
     }
 
     .main {
@@ -171,7 +186,7 @@ footer {
         margin: 0;
     }
 
-    nav ul li {
+    nav ul li, button {
         display: inline-block;
         border-radius: 1em;
         min-width: 15%;
@@ -190,7 +205,7 @@ footer {
     nav ul li:last-child {
         margin: 0;
     }
-
+    
     .main {
         grid-area: main;
         display: grid;

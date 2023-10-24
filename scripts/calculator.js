@@ -228,7 +228,7 @@ let addText = () => {
     if (document.getElementById("ftNote")) {
         let ftNote = document.getElementById("ftNote");
         ftNote.remove();      
-        document.getElementById("addText").innerHTML = "Click Me";
+        document.getElementById("addText").innerHTML = "";
     }
     else {
         let ftNote = document.createElement("p");
