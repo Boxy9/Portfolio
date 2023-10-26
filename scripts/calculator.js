@@ -233,7 +233,7 @@ let addText = () => {
     else {
         let ftNote = document.createElement("p");
         let insPt = document.getElementById("main");
-        ftNote.innerHTML = "The first row of the calculator buttons (the row starting with the 'C' button) has been added dynamically. JavaScript event listeners, functions and code to make the buttons and the calculator work when the buttons are pressed."
+        ftNote.innerHTML = "The first row of the calculator buttons (the row starting with the 'C' button) have been added dynamically. JavaScript event listeners, functions and code to make the buttons and the calculator work when the buttons are pressed."
         ftNote.style.color = "blue";
         ftNote.style.textAlign = "center";
         ftNote.style.fontSize = "1.5em";
